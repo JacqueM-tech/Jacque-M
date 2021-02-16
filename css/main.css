@@ -213,7 +213,7 @@ ul li .page-two {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    height: 825px;
+    height: 750px;
 }
 
 #projects h4 {
@@ -233,11 +233,12 @@ ul li .page-two {
     border: 1px solid black;
 }
 
-footer, .divider {
+.full-width hr {
     border-top: 1px solid grey;
-    margin-top: 30px;
+    margin-bottom: 50px;
 
 }
+
 footer #icons-two {
     display: flex;
     flex-flow: row nowrap;
@@ -246,19 +247,26 @@ footer #icons-two {
     height: 200px;
     margin: 0 0 0 150px;
     padding-top: 20px;
-    clear: both;
     
 }
 
 #icons-two a {
     text-decoration: none;
 }
+
+#icons-two ul {
+    display: flex;
+     flex-flow: row nowrap;
+     justify-content: center;
+     align-items: center;
+
+}
+
 #icons-two ul li {
-     display: inline-block;
      list-style: none;
 }
 #icons-two img {
-    padding-left: 150px;
+    margin-right: 150px;
 
 }
 
