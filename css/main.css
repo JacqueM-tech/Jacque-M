@@ -233,7 +233,7 @@ ul li .page-two {
     border: 1px solid black;
 }
 
-.full-width hr {
+.full-width hr .divider {
     border-top: 1px solid grey;
     margin-bottom: 50px;
 
