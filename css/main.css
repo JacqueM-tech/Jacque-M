@@ -209,31 +209,33 @@ ul li .page-two {
     margin: 10px 5px;
 }
 
-#projects {
-    height: 725px;
-    margin: 0 auto;
-    padding-left: 140px;
-    text-align: center;
-    display: inline-block;
-    box-sizing: border-box;
+#projects .full-width {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 825px;
 }
-    
-h4 {
-    padding-left: 10px;
+
+#projects h4 {
+    display: flex;
+    justify-content: center;
     font-family: 'lora', serif;
     font-size: 22px;
     line-height: 100px;
-    display: inline-block;
-    box-sizing: border-box;
     text-shadow: 2px 2px 4px lightslategrey, 4px 4px 8px #bbc085;
 }
-.one, .two, .three, img {
-    display: inline-block;
+
+#projects .two img {
+    margin-left: 40px;
+}
+
+#projects img {
+    border: 1px solid black;
 }
 
 footer, .divider {
     border-top: 1px solid grey;
-    margin-top: 40px;
+    margin-top: 30px;
 
 }
 footer #icons-two {
